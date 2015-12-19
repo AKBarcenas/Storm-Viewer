@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7588911C25FCB3000F2F0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7588901C25FCB3000F2F0A /* AppDelegate.swift */; };
+		FA7588931C25FCB3000F2F0A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7588921C25FCB3000F2F0A /* MasterViewController.swift */; };
+		FA7588951C25FCB3000F2F0A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7588941C25FCB3000F2F0A /* DetailViewController.swift */; };
+		FA7588981C25FCB3000F2F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7588961C25FCB3000F2F0A /* Main.storyboard */; };
+		FA75889A1C25FCB3000F2F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7588991C25FCB3000F2F0A /* Assets.xcassets */; };
+		FA75889D1C25FCB3000F2F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA75889B1C25FCB3000F2F0A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA75888D1C25FCB3000F2F0A /* Storm Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storm Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7588901C25FCB3000F2F0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA7588921C25FCB3000F2F0A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		FA7588941C25FCB3000F2F0A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FA7588971C25FCB3000F2F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA7588991C25FCB3000F2F0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA75889C1C25FCB3000F2F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA75889E1C25FCB3000F2F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA75888A1C25FCB3000F2F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7588841C25FCB3000F2F0A = {
+			isa = PBXGroup;
+			children = (
+				FA75888F1C25FCB3000F2F0A /* Storm Viewer */,
+				FA75888E1C25FCB3000F2F0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA75888E1C25FCB3000F2F0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA75888D1C25FCB3000F2F0A /* Storm Viewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA75888F1C25FCB3000F2F0A /* Storm Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				FA7588901C25FCB3000F2F0A /* AppDelegate.swift */,
+				FA7588921C25FCB3000F2F0A /* MasterViewController.swift */,
+				FA7588941C25FCB3000F2F0A /* DetailViewController.swift */,
+				FA7588961C25FCB3000F2F0A /* Main.storyboard */,
+				FA7588991C25FCB3000F2F0A /* Assets.xcassets */,
+				FA75889B1C25FCB3000F2F0A /* LaunchScreen.storyboard */,
+				FA75889E1C25FCB3000F2F0A /* Info.plist */,
+			);
+			path = "Storm Viewer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA75888C1C25FCB3000F2F0A /* Storm Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7588A11C25FCB3000F2F0A /* Build configuration list for PBXNativeTarget "Storm Viewer" */;
+			buildPhases = (
+				FA7588891C25FCB3000F2F0A /* Sources */,
+				FA75888A1C25FCB3000F2F0A /* Frameworks */,
+				FA75888B1C25FCB3000F2F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Storm Viewer";
+			productName = "Storm Viewer";
+			productReference = FA75888D1C25FCB3000F2F0A /* Storm Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7588851C25FCB3000F2F0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alex Barcenas";
+				TargetAttributes = {
+					FA75888C1C25FCB3000F2F0A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2ZSXJFDZ3N;
+					};
+				};
+			};
+			buildConfigurationList = FA7588881C25FCB3000F2F0A /* Build configuration list for PBXProject "Storm Viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA7588841C25FCB3000F2F0A;
+			productRefGroup = FA75888E1C25FCB3000F2F0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA75888C1C25FCB3000F2F0A /* Storm Viewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA75888B1C25FCB3000F2F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA75889D1C25FCB3000F2F0A /* LaunchScreen.storyboard in Resources */,
+				FA75889A1C25FCB3000F2F0A /* Assets.xcassets in Resources */,
+				FA7588981C25FCB3000F2F0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7588891C25FCB3000F2F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7588951C25FCB3000F2F0A /* DetailViewController.swift in Sources */,
+				FA7588931C25FCB3000F2F0A /* MasterViewController.swift in Sources */,
+				FA7588911C25FCB3000F2F0A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA7588961C25FCB3000F2F0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7588971C25FCB3000F2F0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA75889B1C25FCB3000F2F0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA75889C1C25FCB3000F2F0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA75889F1C25FCB3000F2F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA7588A01C25FCB3000F2F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7588A21C25FCB3000F2F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Storm Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Barcenas.Storm-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA7588A31C25FCB3000F2F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Storm Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Barcenas.Storm-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7588881C25FCB3000F2F0A /* Build configuration list for PBXProject "Storm Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA75889F1C25FCB3000F2F0A /* Debug */,
+				FA7588A01C25FCB3000F2F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7588A11C25FCB3000F2F0A /* Build configuration list for PBXNativeTarget "Storm Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7588A21C25FCB3000F2F0A /* Debug */,
+				FA7588A31C25FCB3000F2F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA7588851C25FCB3000F2F0A /* Project object */;
+}
