@@ -11,11 +11,20 @@ import UIKit
 class MasterViewController: UITableViewController {
 
     var detailViewController: DetailViewController? = nil
-    var objects = [AnyObject]()
+    var objects = [String]()
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let fm = NSFileManager.defaultManager()
+        let path = NSBundle.mainBundle().resourcePath!
+        let items = try! fm.contentsOfDirectoryAtPath(path)
+        
+        for item in items {
+            if item.hasPrefix("nssl") {
+                objects.append(item)
+            }
+        }
     }
 
     override func viewWillAppear(animated: Bool) {
