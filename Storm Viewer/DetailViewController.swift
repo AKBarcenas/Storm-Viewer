@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import Social
 
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailImageView: UIImageView!
-
+    @IBOutlet weak var facebook: UIBarButtonItem!
+    
     var detailItem: String? {
         didSet {
             // Update the view.
@@ -33,6 +35,7 @@ class DetailViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.configureView()
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Action, target: self, action: "shareTapped")
+        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Action, target: self, action: "shareFacebook")
     }
 
     override func didReceiveMemoryWarning() {
@@ -52,6 +55,14 @@ class DetailViewController: UIViewController {
     
     func shareTapped() {
         let vc = UIActivityViewController(activityItems: [detailImageView.image!], applicationActivities: [])
+        presentViewController(vc, animated: true, completion: nil)
+    }
+    
+    func shareFacebook()  {
+        let vc = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
+        vc.setInitialText("Look at this great picture!")
+        vc.addImage(detailImageView.image!)
+        vc.addURL(NSURL(string: "http://www.photolib.noaa.gov/nssl"))
         presentViewController(vc, animated: true, completion: nil)
     }
 

@@ -45,9 +45,12 @@
                         </constraints>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Detail" id="mOI-FS-AaM"/>
+                    <navigationItem key="navigationItem" title="Detail" id="mOI-FS-AaM">
+                        <barButtonItem key="leftBarButtonItem" title="Facebook" id="03N-5N-8cS"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="detailImageView" destination="ltH-Sn-jEm" id="ALT-eE-MS4"/>
+                        <outlet property="facebook" destination="03N-5N-8cS" id="Tun-7c-hO0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
