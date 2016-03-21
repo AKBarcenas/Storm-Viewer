@@ -13,6 +13,13 @@ class MasterViewController: UITableViewController {
     var detailViewController: DetailViewController? = nil
     var objects = [String]()
 
+    
+    /*
+     * Function Name: viewDidLoad
+     * Parameters: None
+     * Purpose: This method creates a file manager and uses it to find images used by the app.
+     * Return Value: None
+     */
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +46,14 @@ class MasterViewController: UITableViewController {
 
     // MARK: - Segues
 
+    /*
+     * Function Name: viewDidLoad
+     * Parameters: segue - the segue that is being taken, sender - where the segue originated.
+     * Purpose: This method prepares the selection of images to choose from that we can display
+     *   on the detail controller.
+     * Return Value: None
+     */
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showDetail" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
